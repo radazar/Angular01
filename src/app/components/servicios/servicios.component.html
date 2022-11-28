@@ -1,0 +1,145 @@
+<div class="container ms-4 ">
+    <div class="row">
+        <div class="mt-5 col-sm-6">
+            <h1>¡Compra tu tiquete!</h1>
+            <h5>Elige el viaje para ti</h5>
+        </div>
+        <div class="mt-5 col-sm-6">
+            <h5><span class="elegir">Destino Elegido:</span> {{city}} </h5>
+            <h5><span class="elegir">Costo del viaje:</span> ${{most}} </h5>
+        </div>
+            <div class="form-group col-sm-3 mt-2 mb-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/453c8b2e-b02e-4ec3-97ee-a0e453fe484b/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>Vuelos a Miami</h4>
+                      <p class="card-text">Partiendo desde Bogota</p>
+                      <hr>
+                      <p class="card-text">Precio: $851.773 &nbsp; &nbsp;  
+                        <a (click)="MostrarM()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                            <i class="fas fa-cart-plus"></i> Comprar
+                          </a>
+                      </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/f0d418ce-cc28-4eaf-8679-1235dcac89c0/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Buenos Aires</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $3.123.530 &nbsp; &nbsp; 
+                            <a (click)="MostrarBA()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/6230d0fa-33bd-46bf-81c1-c3300beee48a/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Estanbul</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $4.980.896 &nbsp; &nbsp; 
+                            <a (click)="MostrarE()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-sm-3 mt-2 mb-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/dcd93d30-1fb2-49f1-ae47-44f3dd89c261/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Nueva york</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $1.063.582 &nbsp; &nbsp; 
+                            <a (click)="MostrarNY()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/04904206-a376-4eaa-9532-253e568a5a58/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Atenas</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $6.600.990 &nbsp; &nbsp; 
+                            <a (click)="MostrarA()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/31f46fa8-cd26-4ccc-b41e-e89b695ad37b/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a El Calafate</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $4.091.837 &nbsp; &nbsp; 
+                            <a (click)="MostrarCF()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-sm-3 mt-2 mb-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/7111552d-467c-4668-901d-6eda9cab31ad/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a El Cairo</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $8.153.660 &nbsp; &nbsp; 
+                            <a (click)="MostrarC()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/053fa4be-9a49-492b-abf3-7ee213ac63a7/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Roma</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $4.678.927 &nbsp; &nbsp; 
+                            <a (click)="MostrarR()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.staticontent.com/media/pictures/ba7eef5f-7d2a-4931-b69c-dad1f15151c6/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Vuelos a Yellowstone</h4>
+                        <p class="card-text">Partiendo desde Bogota</p>
+                        <hr>
+                        <p class="card-text">Precio: $4.507.001 &nbsp; &nbsp; 
+                            <a (click)="MostrarY()" class="btn text-white" style="background-color: #4c75a3;"  role="button">
+                                <i class="fas fa-cart-plus"></i> Comprar
+                              </a>
+                        </p>
+                    </div>
+                </div>
+            </div>    
+            <div class="form-group col-1 mt-2 mb-2"><hr class="aside"></div>
+            <div class="form-group col-2 mt-2 mb-2"><app-aside></app-aside></div> 
+               
+    </div> 
+
+</div>

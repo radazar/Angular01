@@ -1,0 +1,17 @@
+.cont{
+    background-image: url(https://w0.peakpx.com/wallpaper/650/30/HD-wallpaper-airplane-aircraft-transport.jpg);
+}
+h3,h5{
+    color: white;
+}
+p{
+    color: white;
+}
+hr{ 
+  
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          1px;     
+    margin: auto;  
+}
